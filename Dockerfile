@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.2.48
+ENV VERSION=0.2.52
 
 RUN gem install brpm_content_framework --version ${VERSION} --no-format-exec
 
